@@ -58,10 +58,42 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-color: #45b39d;
+  color: #fff;
+  padding: 20px 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.modal-container .modal .modal-header i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.modal-container .modal .modal-content {
+  padding: 20px 15px;
+  line-height: 2rem;
+  text-align: justify;
+}
+.modal-container .modal .modal-content img {
+  display: block;
+  width: 25%;
+  margin: 10px auto;
+}
+.modal-container .modal .modal-footer {
+  border-top: 1px solid #ddd;
+  padding: 20px 15px;
+}
+.modal-container .modal .modal-footer .btn-close {
+  display: block;
+  margin-left: auto;
+  background-color: transparent;
+  color: #333;
+  outline: 1px solid #25b39d;
+  padding: 10px 30px;
 }/*# sourceMappingURL=style.css.map */
