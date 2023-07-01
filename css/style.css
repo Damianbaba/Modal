@@ -47,6 +47,8 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0;
+  pointer-events: none;
 }
 .modal-container .modal {
   background-color: #fff;
@@ -74,6 +76,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 .modal-container .modal .modal-content {
   padding: 20px 15px;
@@ -96,4 +99,19 @@ button {
   color: #333;
   outline: 1px solid #25b39d;
   padding: 10px 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 25px;
+}
+.modal-container .modal .modal-footer .btn-close:hover {
+  background-color: #45b36d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.show-modal {
+  opacity: 1;
+  pointer-events: auto;
 }/*# sourceMappingURL=style.css.map */
