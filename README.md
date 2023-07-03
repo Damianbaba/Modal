@@ -1,5 +1,3 @@
-# Modal
-
 # Modal Project
 
 This project demonstrates the implementation of a modal dialog using HTML, CSS, and JavaScript.
