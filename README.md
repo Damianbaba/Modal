@@ -46,5 +46,3 @@ To use the modal, follow these steps:
 1. Click the "Click to Open" button.
 2. The modal dialog will appear, displaying the user profile details.
 3. To close the modal, click the "Close" button or the close icon.
-
-That's it! You have successfully implemented a modal dialog in your web project. Feel free to customize the styles, content, and functionality based on your specific requirements.
